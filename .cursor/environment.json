@@ -1,0 +1,4 @@
+{
+  "name": "cursor-demo",
+  "install": "set -euo pipefail\ntest -f README.md\ngrep -qx \"# cursor-demo\" README.md"
+}
